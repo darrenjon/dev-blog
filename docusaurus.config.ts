@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Darren's Dev Blog",
+  tagline: 'Tech insights for the modern developer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'darrenjon', // Usually your GitHub org/user name.
+  projectName: 'dev-blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,10 +35,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          showLastUpdateAuthor: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -46,10 +47,11 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          // routeBasePath: '/', // Set the route base path to '/'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -66,23 +68,18 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: "Darren's Dev Blog",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "Darren's Dev Blog Logo",
+        src: 'img/my-logo.svg',
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: 'Topics',
         },
       ],
     },
@@ -93,43 +90,43 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Topics',
               to: '/docs/intro',
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Contact',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Medium',
+              href: 'https://medium.com/@darren9',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/darrenjon',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'X (Twitter)',
+              href: 'https://x.com/darrenlin_h2v',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            // {
+            //   label: 'GitHub',
+            //   href: 'https://github.com/facebook/docusaurus',
+            // },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © Darren's Dev Blog ${new Date().getFullYear()}. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
