@@ -1,8 +1,8 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
+authors: [darrenjon]
+tags: [test, docusaurus]
 ---
 
 Lorem ipsum dolor sit amet...
