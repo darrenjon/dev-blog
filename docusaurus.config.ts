@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: "Topics",
-              to: "/docs/intro"
+              to: "/docs/category/microsoft-power-automate"
             },
             {
               label: "Blog",

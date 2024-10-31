@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [darrenjon]
-tags: [test, docusaurus]
+tags: [docusaurus]
 ---
 
 Lorem ipsum dolor sit amet...
