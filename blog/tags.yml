@@ -3,17 +3,12 @@ facebook:
   permalink: /facebook
   description: Facebook tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+video:
+  label: Video
+  permalink: /video
+  description: Reflections based on video content, including reviews, analyses, and inspirations
 
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
