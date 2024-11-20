@@ -63,6 +63,9 @@ const config: Config = {
       } satisfies Preset.Options
     ]
   ],
+  future: {
+    experimental_faster: true,
+  },
 
   themeConfig: {
     // Replace with your project's social card
