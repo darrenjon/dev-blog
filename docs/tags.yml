@@ -12,3 +12,8 @@ google-workspace:
   label: Google Workspace
   permalink: /google-workspace
   description: A suite of cloud-based productivity and collaboration tools from Google.
+
+power-automate:
+  label: Power Automate
+  permalink: /power-automate
+  description: Microsoft Power Automate is a cloud-based & desktop service that helps you automate workflows across your favorite apps and services.
