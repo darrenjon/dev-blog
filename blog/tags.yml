@@ -1,14 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
 video:
   label: Video
   permalink: /video
   description: Reflections based on video content, including reviews, analyses, and inspirations
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+public speaking:
+  label: Public Speaking
+  permalink: /public-speaking
+  description: Sharing my thoughts on public speaking, including tips, tricks, and reflections
