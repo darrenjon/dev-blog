@@ -7,7 +7,7 @@ keywords:
 authors: [darrenjon]
 tags: [apps-script, google-workspace, automation]
 description: 介紹如何使用 Google Apps Script 開發網頁應用程式，實現 Google Workspace 的自動化操作。
-image: ./assets/web-app-demo.png
+image: /img/docs/apps-script/web-app-demo.png
 ---
 
 # 部署為網頁應用程式實現 Google Workspace 自動化
@@ -33,7 +33,7 @@ Google Apps Script 提供了強大的自動化能力，讓我們能夠透過程�
 2. 點擊「新專案」按鈕
 3. 為專案命名
 
-![create project](./assets/create-new-script-project.png)
+![create project](/img/docs/apps-script/create-new-script-project.png)
 
 ### 專案檔案結構
 
@@ -187,8 +187,8 @@ function onError(error) {
 2. 選擇「網頁應用程式」
 3. 設定執行身分和存取權限
 
-![set deployment](./assets/deploy-web-app.png)
-![set deployment setting](./assets/deploy-web-app-setting.png)
+![set deployment](/img/docs/apps-script/deploy-web-app.png)
+![set deployment setting](/img/docs/apps-script/deploy-web-app-setting.png)
 
 ### 2. 授權設定
 
@@ -198,19 +198,19 @@ function onError(error) {
 2. 接受授權請求
 3. 登入個人 Google 帳號以完成授權
 
-![authorization](./assets/authorization-script.png)
+![authorization](/img/docs/apps-script/authorization-script.png)
 
 ### 3. 取得應用程式網址
 
 部署成功後，會得到一個網址，使用者可以透過這個網址來存取應用程式。
 
-![web app url](./assets/web-app-url.png)
+![web app url](/img/docs/apps-script/web-app-url.png)
 
 ## 成果展示
 
 透過簡單的介面，使用者可以登入自己指定的 Google 帳號輸入，透過輸入試算表 ID 和工作表名稱，就可以自動化執行更新操作。當操作成功時，會顯示成功訊息。
 
-![web app demo](./assets/web-app-demo.png)
+![web app demo](/img/docs/apps-script/web-app-demo.png)
 
 ## 結語
 
