@@ -7,3 +7,18 @@ public speaking:
   label: Public Speaking
   permalink: /public-speaking
   description: Sharing my thoughts on public speaking, including tips, tricks, and reflections
+
+productivityTips:
+  label: Productivity Tips
+  permalink: /productivity-tips
+  description: Tips and tricks to help you get more done in less time
+
+freelancing:
+  label: Freelancing
+  permalink: /freelancing
+  description: Thoughts on freelancing, including tips, tricks, and reflections
+
+time management:
+  label: Time Management
+  permalink: /time-management
+  description: Thoughts on time management, including tips, tricks, and reflections
