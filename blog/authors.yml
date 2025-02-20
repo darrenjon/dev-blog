@@ -6,8 +6,8 @@ darrenjon:
   # page:
     # customize the url of the author page at /blog/authors/<permalink>
     # permalink: '/all-darrenjon-articles'
-  socials:
-    x: darrenlin_h2v
-    linkedin: darrenjon
-    github: darrenjon
+  # socials:
+  #   x: darrenlin_h2v
+  #   linkedin: darrenjon
+  #   github: darrenjon
     # newsletter: https://thisweekinreact.com
