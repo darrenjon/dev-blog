@@ -17,3 +17,8 @@ power-automate:
   label: Power Automate
   permalink: /power-automate
   description: Microsoft Power Automate is a cloud-based & desktop service that helps you automate workflows across your favorite apps and services.
+
+n8n:
+  label: n8n
+  permalink: /n8n
+  description: n8n is an extendable workflow automation tool that enables you to connect your favorite apps, services, and devices.
